@@ -1,0 +1,35 @@
+.ce_main {
+    width: 400px;
+    height: 600pX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 70px;
+
+    background-color: red;
+}
+
+#ce_name {
+    color: white;
+    font-size: 70px;
+
+}
+
+#ce_button {
+    padding: 70px 50px;
+    border-radius: 5px;
+
+    font-size: 30px;
+
+    background-color: black;
+
+    cursor: pointer;
+}
